@@ -1,1 +1,4 @@
- 
+ For my website the theme ons focused on Investing. The reason why I chose this theme is because I am very fascinated investing can help people grow their income in time. For my website design I could implement a clean and very simplistic look. My idea for the color theme is Green/Grey/White. The title would be "Investhub". The Home page will consist of information for people with no experience on how to invest and learn about about stocks, banks, and retirement. I will create a four part navigating subject which is About Investhub category, Stocks category, Banks Category, and Reitirement Category.
+For the About page it will consist of more about what Investhub is and how to contact Investhub.
+The Stocks category till have sub categories of Index Fund and Wall Street. The Banks category will consist of a list of information about banks and a list of credit cards. The Retirement category will consist of two sub category which is the Social Security category and the 401k category.
+The header in my main website will have a main will have a subscription and newsletter information along with a header which is About Investhub, Stocks Banks, and Retirement.

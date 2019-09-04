@@ -195,9 +195,23 @@
 
     .cool {
       font-style: italic;
+
     }
 
-    
+    .faded {
+      opacity: .3; /* opacity range from  0-1 */
+    }
+
+    main h1 {
+      font-size: 40px;
+    }
+
+    main p a {
+      color: orange;
+      font-size: 20px;
+    }
+
+
   </style>
 
   <body>
@@ -208,7 +222,7 @@
         <ul>
           <li><b>Home</b></li>
           <li><a href="projects.html">Projects</a></li>
-          <li><a href="about.html">About</a></li>
+          <li class="faded"><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -217,11 +231,11 @@
 
     <!--main-->
     <main>
-      <h1>Bill's <span style="font-size: 72px;">P</span>ortfolio</h1>
+      <h1 class="faded">Bill's <span style="font-size: 72px;">P</span>ortfolio</h1>
       <h3>main element</h3>
 
-      <p id="erik" class="cool">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ipsam
+      <p id="erik" class="cool faded">
+        <a href="#">Lorem ipsum dolor,</a> sit amet consectetur adipisicing elit. Qui ipsam
         quam, provident asperiores eligendi rerum error, libero facilis
         similique reiciendis ex illo sapiente ratione dignissimos atque odio
         distinctio? Ipsam, laborum?
@@ -235,7 +249,7 @@
         </span>
       </p>
       <p id="bill" class="cool">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+        <a href="#">Lorem ipsum dolor</a> sit amet consectetur adipisicing elit. Incidunt
         tempora neque sequi vitae repellendus maxime maiores quia rerum, ducimus
         impedit! Neque omnis debitis non architecto dignissimos harum aliquam
         aspernatur magni.
@@ -251,6 +265,7 @@
 
     <!--footer-->
     <footer>
+      <h1>Thank you for visiting my website</h1>
       <p>Copyright &copy; 2019 Bill Almero footer element</p>
     </footer>
     <!--/footer-->
