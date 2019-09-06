@@ -6,8 +6,56 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>FlexBox</title>
   <!-- <link href="styles.css" rel="stylesheet" type="text/css" > -->
+
+  <style>
+    #container {
+      background-color: fuchsia;
+      /* height: 400px; */
+      display: flex;
+    }
+
+    #box1, #box2, #box3 {
+      background-color: cyan;
+      height: 380px;
+      width: 380px;
+      /* flex-grow: 1; */
+      margin: 10px;
+    }
+
+    #box1 {
+      flex-grow: 1;
+      /* order: 1; */
+    }
+
+    #box2 {
+      flex-grow: 2;
+      /* order: -1000; */
+    }
+
+    #box3 {
+      flex-grow: 1;
+      /* order: 0; */
+    }
+
+  </style>
 </head>
 <body>
+  <div id="container">
+
+    <div id="box1">
+      <h1>Box 1</h1>
+    </div>
+
+    <div id="box2">
+      <h1>Box 2</h1>
+    </div>
+
+    <div id="box3">
+      <h1>Box 3</h1>
+    </div>
+
+  </div>
+
 
 
 <script src="#"></script>
