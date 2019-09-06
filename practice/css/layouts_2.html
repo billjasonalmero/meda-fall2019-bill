@@ -20,7 +20,7 @@
       scroll-padding-top: 20px; 
       overflow: auto;
       width: 800px;
-      maingin: 0 auto;
+      margin: 0 auto;
     }
 
     #header {
@@ -28,7 +28,7 @@
       background-color: whitesmoke;
       margin: 20px;
       margin-top: 0;
-      margin: 0 auto;
+
 
     }
 
@@ -36,7 +36,9 @@
       height: 700px;
       background-color: whitesmoke;
       margin: 20px;
-      width: 700px;
+      padding: 10px 0;
+      /* overflow: auto; */
+      /* width: 700px; */
 
 
     }
@@ -45,10 +47,45 @@
       height: 300px;
       background-color: whitesmoke;
       margin: 20px;
-      width: 700px;
+      text-align: center;
+    }
 
+    #header,#main #footer {
 
     }
+
+    body #main {
+
+    }
+
+    #content {
+      background-color: wheat;
+      height: 100%;
+      width: 50%;
+      margin: 10px;
+      margin-top: 0px;
+      display: inline-block;
+    }
+
+    #sidebar {
+      background-color: wheat;
+      width: 40%;
+      height: 100%;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .divfooter {
+      background-color: pink;
+      height: 89%;
+      width: 28%;
+      margin: 2%;
+      display: inline-block;
+      /* text-align: center; */
+      border-radius: 20px;  /* round off the corners...for the  perfect  circle use "50"  */
+
+    }
+
   </style>
   <body>
     <div id="container">
@@ -56,10 +93,19 @@
 
       <div id="main"></div>
 
-      <div id="footer"></div>
+      
+      <div id="main">
+        <div id="content"></div>
+        <div id="sidebar"></div>
+      </div>
+      
+      <div id="footer">
+        <div class="divfooter"></div>
+        <div class="divfooter"></div>
+        <div class="divfooter"></div>
+
+      </div>
     </div>
-
-    <div id="main"></div>
-
+      
   </body>
 </html>
