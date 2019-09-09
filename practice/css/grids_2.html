@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Page</title>
+  <!-- <link href="styles.css" rel="stylesheet" type="text/css" > -->
+
+  <style>
+    #grid-container {
+      background-color: grey;
+      display:grid;
+      height: 300px;
+      width: 300px;
+      grid-template-columns: 1fr 1fr 1fr 1fr; /*creates a number of clumn space which is 4 col */
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    #box1, #box2, #box3 {
+      background-color: dodgerblue;
+      margin: 10px;
+    }
+
+    #box1 {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    #box2 {
+      grid-row-start: 1;
+      grid-column-end: 3;
+      grid-column-start: 3;
+      grid-row-end: 4;
+
+    }
+
+    #box3 {
+      grid-row-start: 4;
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-end: 4;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <div id="grid-container">
+    <div id="box1">1</div>
+    <div id="box2">2</div>
+    <div id="box3">3</div>
+  </div>
+
+<script src="#"></script>
+
+</body>
+</html>
