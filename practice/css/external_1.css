@@ -4,6 +4,7 @@ body {
 
 header {
   color: white;
+  font-size: 100px;
 }
 
 main {
@@ -29,7 +30,7 @@ footer {
 }
 
 #secondpage {
-  background-color: grey;
+  background-color: olivedrab;
 }
 
 #secondpage h1 {
