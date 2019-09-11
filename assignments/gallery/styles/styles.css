@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-  background-color: blue;
+  background-color: grey;
   width: 80%;
   height: 800px;
   padding-top: 10px;
@@ -25,7 +25,6 @@ header {
 
 main {
   background-color: whitesmoke;
-  height: 500px;
   padding-top: 10px;
 }
 
@@ -43,7 +42,20 @@ main {
   width: 30%;
   height: 100%;
   display: inline-block;
-  margin: 10px auto;
+  margin: 1%;
+}
+
+#flexbox-gallery {
+  display: flex;
+  height: 300px;
+  background-color: powderblue;
+  margin: 0 10px;
+}
+
+#flexbox-gallery div {
+  flex-grow: 1;
+  background-color: white;
+  margin: 10px;
 }
 /* Main End */
 
