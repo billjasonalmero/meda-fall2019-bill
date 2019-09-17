@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  
+    body {
+      background-color: silver;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    header {
+      background-color: darkolivegreen;
+    }
+
+    footer {
+      background-color: orange;
+    }
+
+    header, body
+
+    .container {
+      background-color: lavender;
+      margin: 10px;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .group1 {
+      display: flex; /*to contain a group a images i have to add display: flex on every container*/
+      margin: 10px;
+      flex-wrap: wrap;
+    }
+
+    .group2 {
+      display: flex;
+      margin: 10px;
+      flex-wrap: wrap;
+
+    }
+
+    div img {
+      width: 200px;
+      background-color: chocolate;
+    }
+
+  </style>
+</head>
+<body>
+  <!--header section-->
+  <header>
+  <section>
+    <h1> Home page Assignment Gallery</h1>
+    <h2>By Bill Jason</h2>
+  </section>
+  </header>
+  <!--/header section-->
+
+  <main>
+  <!--gallary caintainer-->
+  <section class="container">
+    <div class="group1">
+      <div><img src="pictures/picture01.jpg"></div>
+      <div><img src="pictures/picture02.jpg"></div>
+      <div><img src="pictures/picture03.jpg"></div>
+      <div><img src="pictures/picture04.jpg"></div>
+      <div><img src="pictures/picture05.jpg"></div>
+    </div>
+
+
+    <div class="group2">
+        <div><img src="pictures/picture06.jpg"></div>
+        <div><img src="pictures/picture07.jpg"></div>
+        <div><img src="pictures/picture08.jpg"></div>
+        <div><img src="pictures/picture09.jpg"></div>
+        <div><img src="pictures/picture10.jpg"></div>
+      </div>
+  </section>
+  <!--/gallary container-->
+  </main>
+
+  <!--footer section-->
+  <footer>
+    <h2>All rights reserved</h2>
+  </footer>
+    <!--footer section-->
+
+
+  
+</body>
+</html>
