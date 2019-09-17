@@ -1,0 +1,43 @@
+body {
+  background-color: silver;
+  display: flex;
+  flex-direction: column;
+
+}
+
+header {
+  background-color: darkolivegreen;
+}
+
+footer {
+  background-color: orange;
+}
+
+header, body
+
+.container {
+  background-color: lavender;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.group1 {
+  display: flex; /*to contain a group a images i have to add display: flex on every container*/
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.group2 {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+
+}
+
+div img {
+  width: 200px;
+  background-color: chocolate;
+}
