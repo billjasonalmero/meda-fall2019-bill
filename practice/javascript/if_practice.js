@@ -155,4 +155,4 @@ Thruthy and Falsey values
 */
 
 //what you need to MASTER as a programmer
-//functions, classes obkect
+//functions, classes object
