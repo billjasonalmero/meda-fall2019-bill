@@ -40,7 +40,7 @@ mathify(1000);
 // mdas(5,5,5,5,5);
 
 
-//parameters: specification, values use pass to functions
+//parameters: specification, values use pass to functions; parameters are specific to the function
 
 //OCT1,2019 DAY28
 

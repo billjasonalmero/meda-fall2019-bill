@@ -60,7 +60,7 @@ console.log(floatNumber);
 console.log ( Math.floor((Math.random() * 10) +1) );
 
 //Finding the character at position 7 (starting form 0) and sends that character to the console.
-console.log("Hello World!".charAt(7)  );
+console.log("Hello World!".charAt(7));
 
 //Find the character in the string, and return the position number and send it to the console.
-console.log("Hello World".indexOf("W")); 
+console.log("Hello World".indexOf("W"));
