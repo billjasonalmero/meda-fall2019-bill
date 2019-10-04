@@ -24,3 +24,29 @@ do {
     aVariable = false;
   }
 } while (aVariable);
+
+var stringToTest = "This is a really long sentence so we have a chance to count a character twice.";
+var i = 0;
+var loopContinue = true;
+//var lenghtOfString = stringToTest.length; //.charAt(i);
+console.log(lenghtOfString);
+
+
+//.length only works on string and array
+
+do{
+
+  //Pull a character based on the current loop number (i) usin gthe charAt function.
+  var character = stringToTest.charAt(i);
+  
+  //Add a 1 to the corner (i)
+  i = i + 1;
+
+  //console.log(lenghtOfString);
+  console.log(character);
+  //Test to see if the loop is longer than the lenght of string, and stop the loop if it is.
+  if(i >= lenghtOfString) {
+    loopContinue = false;
+  }
+//After running the code check loopContinue to see if we should run this again
+}while(loopContinue);
