@@ -22,22 +22,51 @@ header, body
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
 }
 
+/* the title of the gallery */
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+/* first row pictures */
 .group1 {
   display: flex; /*to contain a group a images i have to add display: flex on every container*/
   margin: 10px;
   flex-wrap: wrap;
+  background-color: blueviolet;
+  justify-content: center;
+
+
 }
 
+/* create a picture frame top part */
+.container .group1 .top {
+  margin: 5px;
+  background-color: salmon;
+}
+
+/* create a picture frame bottom part */
+.container .group2 .bottom {
+  margin: 5px;
+  background-color: salmon;
+}
+
+/* second row pictures */
 .group2 {
   display: flex;
   margin: 10px;
   flex-wrap: wrap;
+  background-color: blueviolet;
+  justify-content: center;
+
 
 }
 
 div img {
   width: 200px;
   background-color: chocolate;
+  margin: 10px;
 }

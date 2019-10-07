@@ -38,7 +38,7 @@ for (var num = 0; num < 45; num++) {
 }
 
 //Control the amount of loops based on counter start and condition end.
-for (var counter = 20; counter < 45; counter +2) {
+for (var counter = 1000; counter < 45; counter +2) {
   console.log("Hello")
 }
 
