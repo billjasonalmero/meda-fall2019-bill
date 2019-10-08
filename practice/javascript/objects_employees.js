@@ -48,7 +48,7 @@ console.log(employees);
 
 "hello there!".length
 employees.length
-//employees["lenght"]
+//employees["lenght"];
 
 //Dot Notation access for objects
 employees[0].status;

@@ -75,9 +75,9 @@
 
       $("body").append(`
         <div id='container'>
-          <div id='box'></div>
-          <div></div>
-          <div></div>
+          <div id='box'>one</div>
+          <div>two</div>
+          <div>three</div>
         <div>`);
 
       $("#container").css({
@@ -98,8 +98,24 @@
 
       $("#container div").css("background-color","wheat");
 
+      //END OF ADDING HTML AND CSS
 
 
+
+      // START OF BUTTON EVENTS
+      $("body").prepend("<button id='createText'>click me</button>");
+
+      $("#createText").click(function() {
+        $("body").html("<p>The button was clicked</p>");
+        $("body").css("background-color","pink");
+        $("h1").css("color","coral");
+        // $("#createText").append("<p>The button was clicked</p>");
+        // $("body").prepend("<p>The button was clicked</p>");
+
+        //$("#createText").remove();
+
+      });
+    
     });
 
 
