@@ -58,6 +58,10 @@
 
       //ADD AND REMOVE HTML END
 
+
+
+      //END OF ADDING HTML AND CSS
+
       $("body").css("color","fuchsia");
       $("#heading1").css("font-size","72px");
 
@@ -107,12 +111,27 @@
 
       $("#createText").click(function() {
         $("body").html("<p>The button was clicked</p>");
+        $("div").remove();
         $("body").css("background-color","pink");
         $("h1").css("color","coral");
+
         // $("#createText").append("<p>The button was clicked</p>");
         // $("body").prepend("<p>The button was clicked</p>");
-
         //$("#createText").remove();
+
+        $("body").append("<button id='removeOtherButton'></button>");
+
+        $("#removeOtherButton").click(function () {
+          $("createText").remove();
+
+          console.log($("#createText"));
+
+          if ($("#createText") == {}) { // objects are unique and it will always be false even if 2 {} {} are empty
+            
+          }else {
+            console.log("Button no longer exist!");
+          }
+        })
 
       });
     
