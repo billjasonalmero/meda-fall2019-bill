@@ -28,7 +28,7 @@ footer {
   background-color: #523130;
 }
 
-.bannerproject, .bannerabout,.bannercontact, .bannerhobbies {
+.bannerproject, .bannercontact, .bannerhobbies {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -38,9 +38,6 @@ footer {
   margin: 10px;
 }
 
-.bannerabout {
-  background-image: url(images/aboutpage.jpg);
-}
 
 .bannerproject {
   background-image: url(images/projectpage.jpg);
@@ -48,4 +45,13 @@ footer {
 
 .bannercontact {
   background-image: url(images/contactpage.jpg);
+}
+
+#titlebanner {
+  text-align: center;
+  
+}
+
+#adventure {
+  font-size: 50px;
 }
